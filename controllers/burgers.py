@@ -1,6 +1,6 @@
 from flask_app import app
 from flask import render_template, redirect, request, session, session, flash
-from burger import Burger
+from flask_app.models.burger import Burger
 
 @app.route('/')
 def index():
